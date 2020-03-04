@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,800&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background: rgb(61, 53, 53);
+    padding: 10px;
+    margin-left: 8cm;
+    margin-right: 10cm;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+header {
+    background-color: yellow;
+
+}
+
+h1 {
+
+    text-align: center;
+    padding: 35px;
+    font-size: 300%;
+    font-weight: 700;
+}
+
+
+
+
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#img1,
+#img2,
+#img3 {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+
+}
+
+#img4 {
+
+    align-items: center;
+
+
+
+}
+
+.pic {
+
+
+    letter-spacing: 0.5px;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    background: white;
+    cursor: pointer;
+
+}
+
+#img5 {
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#three {
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#four {
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+
+    align-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+
+
+
+
+}
+
+#four h3 {
+    cursor: pointer;
+}
+
+
+#four ul {
+    list-style: none;
+
+    line-height: 25px;
+
+}
+
+#four ul li:hover {
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+
+#img6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 115px;
+    padding-bottom: 35px;
+    line-height: 40px;
+
+    height: 40;
+    width: 30;
+}
+
+#five {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 880px;
+    letter-spacing: 0.5px;
+    font-size: 1em;
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+    padding-left: 30px;
+    color: azure;
+
+
+}
+
+footer p {
+    cursor: pointer;
+}
